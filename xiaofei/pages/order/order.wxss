@@ -1,0 +1,20 @@
+@import "../../assets/css/reset.wxss";
+
+.videoBox{
+  width: 100%;
+  height: 300px;
+}
+
+.text{
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-family: KaiTi;
+  font-size: 20px;
+  background: slategray;
+}
+
+.videoBox image{
+  width: 375px;
+  height: 225px;
+}

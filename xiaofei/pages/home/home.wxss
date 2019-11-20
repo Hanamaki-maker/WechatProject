@@ -1,0 +1,87 @@
+/* pages/home/home.wxss */
+@import "../../assets/css/reset.wxss";
+
+.banner{
+  width: 100%;
+  height: 250px;
+}
+
+.banner image{
+  width: 100%;
+  height: 250px;
+}
+
+.tab-bar{
+  display: flex;
+  margin-top: 15px;
+}
+
+.tab-item{
+  flex: 1;
+  height: 49px;
+  line-height: 49px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #84C1FF;
+  border-radius: 25px;
+}
+
+.tab-item.active{
+  color: #CC0000;
+}
+
+.tab-link{
+  transition: all 0.2s linear;
+  position: absolute;
+  top: 54%;
+  height: 2px;
+  width: 54px;
+  background: #CC0000;
+  left: 17.5%
+}
+
+.caipin{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  margin-top: 52px;
+}
+.caipin.showIf{
+  display: none;
+}
+
+.huodong{
+  position: absolute; 
+  width: 100%;
+  height: 550px;
+  margin-top: 52px;
+}
+.huodong.showIf{
+  display: none
+}
+
+.ads{
+  width: 100%;
+  height: 500px;
+}
+.ads image{
+  height: 500px;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.caipinBox{
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+.text{
+  width: 100%;
+  height: 10px;
+}
+.text image{
+  height: 40px;
+  position: absolute;
+  margin-left: 25px;
+}

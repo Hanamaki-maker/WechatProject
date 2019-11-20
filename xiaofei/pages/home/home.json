@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "caipin-item": "/assets/components/caipinitem/caipinitem"
+  }
+}

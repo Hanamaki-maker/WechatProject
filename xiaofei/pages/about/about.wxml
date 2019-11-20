@@ -1,0 +1,20 @@
+<view class="main">
+  <view class="touxiang">
+    <image src="../../assets/images/touxiang.png"></image>
+  </view>
+  <view class="text">我叫小肥，</view>
+  <view class="text">是一个爱美食爱生活的小胖子。</view>
+  <view class="text" style="margin-top: 12px">由于爸爸是酒楼大厨，</view>
+  <view class="text">因此我学的一手做蟹的好本领。</view>
+  <view class="text" style="margin-top: 12px">全日食堂是我自己经营的线上餐厅，</view>
+  <view class="text">主营各种新鲜大闸蟹料理，</view>
+  <view class="text">同时还有口水鸡，白云凤爪，</view>
+  <view class="text">焦糖鸡翅等等好多好多好吃的！</view>
+  <view class="text" style="margin-top: 12px">在不断完善菜品口味的同时，</view>
+  <view class="text">我会每天早上亲自去市场采购食材，</view>
+  <view class="text">以确保食材的的新鲜，卫生。</view>
+  <view class="text" style="margin-top: 12px">如果你觉得小肥做的菜好吃的话，</view>
+  <view class="text">请一定要推荐给你的好朋友哦~</view>
+  <view class="text sup" style="margin-top: 18px">我的微信号是：xiaoyong15975</view>
+  <view class="text sup">期待您的光临</view>
+</view>

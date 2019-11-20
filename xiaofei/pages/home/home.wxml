@@ -1,0 +1,36 @@
+<view>
+  <swiper class="banner" autoplay indicator-dots circular interval="4000" indicator-active-color="#fff">
+    <swiper-item>
+      <image src="../../assets/images/item1.jpg"></image> 
+    </swiper-item>
+    <swiper-item>
+      <image src="../../assets/images/item3.jpg"></image> 
+    </swiper-item>
+    <swiper-item>
+      <image src="../../assets/images/item2.jpg"></image> 
+    </swiper-item>
+  </swiper>
+  <view class="tab-bar">
+    <view data-type="1" class="tab-item {{active=='1'?'active':''}}" bindtap="handletabbar">热销菜品</view>
+    <view data-type="2" class="tab-item {{active=='2'?'active':''}}" bindtap="handletabbar">优惠活动</view>
+    <view class="tab-link" style="left:{{active=='1'?'17.5%':'68%'}}"></view>
+    <view data-type="1" class="huodong {{showIf=='1'?'showIf':''}}">
+      <swiper class="ads" circular>
+        <swiper-item>
+          <image src="../../assets/images/ad1.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="../../assets/images/ad2.jpg"></image>
+        </swiper-item>
+      </swiper>
+      <view class="text">
+        <image src="../../assets/images/text.png"></image>
+      </view>
+    </view>
+    <view data-type="2" class="caipin {{showIf=='2'?'showIf':''}}">
+      <view class="caipinBox">
+        <caipin-item wx:for="{{caipinList}}" caipin="{{item}}" wx:key="index"></caipin-item>
+      </view>
+    </view>
+  </view>
+</view>

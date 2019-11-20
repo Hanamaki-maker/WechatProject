@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/order",
+    "pages/about/about",
+    "assets/components/caipinitem/caipinitem"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#84C1FF",
+    "navigationBarTitleText": "全日食堂 · 小肥私房蟹",
+    "backgroundColor": "#84C1FF",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 10
+  },
+  "tabBar": {
+    "backgroundColor": "#84C1FF",
+    "selectedColor": "#CC0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "今日推荐",
+        "color": "blue",
+        "selectedColor": "#FF0000",
+        "iconPath": "/assets/images/pangxie.png",
+        "selectedIconPath": "/assets/images/pangxie_s.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "菜品制作",
+        "color": "blue",
+        "selectedColor": "#EA0000",
+        "iconPath": "/assets/images/video.png",
+        "selectedIconPath": "/assets/images/video_s.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于小肥",
+        "color": "blue",
+        "selectedColor": "#FF2D2D",
+        "iconPath": "/assets/images/xiaofei.png",
+        "selectedIconPath": "/assets/images/xiaofei_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

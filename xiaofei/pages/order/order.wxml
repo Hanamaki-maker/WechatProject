@@ -1,0 +1,18 @@
+<view>
+<view class="videoBox">
+  <view class="text">严选苏州大闸蟹，确保每只蟹膏满肉肥</view>
+  <image src="../../assets/images/video1.gif"></image>
+</view>
+<view class="videoBox">
+  <view class="text" style="background: rgb(230, 181, 46)">封边后小火炸制，确保每只蟹膏的保留</view>
+  <image src="../../assets/images/video2.gif"></image>
+</view>
+<view class="videoBox">
+  <view class="text" style="background: rgb(221, 118, 22)">猛火将汤汁收浓，确保每份蟹味浓肉鲜</view>
+  <image src="../../assets/images/video3.gif"></image>
+</view>
+<view class="videoBox">
+  <view class="text" style="background: wheat">一次性环保餐盒，确保每份蟹营养卫生</view>
+  <image src="../../assets/images/video4.gif"></image>
+</view>
+</view>

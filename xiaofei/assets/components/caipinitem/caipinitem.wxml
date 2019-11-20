@@ -1,0 +1,8 @@
+<view class="list-item">
+  <image src="{{caipin.imgsrc}}"></image>
+  <view class="text">
+    <view class="name">{{caipin.name}}</view>
+    <view class="msg">{{caipin.msg}}</view>
+    <view class="price">{{caipin.price}}</view>
+  </view>
+</view>
